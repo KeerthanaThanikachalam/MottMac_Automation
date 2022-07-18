@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-18T02:42:49 BST" name="AutomationSuite" finished-at="2022-07-18T02:44:55 BST" duration-ms="126691">
+    <groups>
+    </groups>
+    <test started-at="2022-07-18T02:42:49 BST" name="Links and Search Validation" finished-at="2022-07-18T02:44:55 BST" duration-ms="126691">
+      <class name="com.automation.StepDefinition.DriverSuite">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.automation.StepDefinition.DriverSuite@333291e3]" started-at="2022-07-18T02:42:42 BST" name="beforeSuite" finished-at="2022-07-18T02:42:49 BST" duration-ms="7008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.automation.StepDefinition.DriverSuite@333291e3]" started-at="2022-07-18T02:42:49 BST" name="beforeTest" finished-at="2022-07-18T02:42:49 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method,org.testng.ITestContext)[pri:0, instance:com.automation.StepDefinition.DriverSuite@333291e3]" started-at="2022-07-18T02:42:49 BST" name="beforeMethod" finished-at="2022-07-18T02:42:49 BST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Links_JobSearch_Validation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.automation.StepDefinition.DriverSuite.links_search_validation(java.lang.String)]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@77cca767]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="links_search_validation(java.lang.String)[pri:0, instance:com.automation.StepDefinition.DriverSuite@333291e3]" started-at="2022-07-18T02:42:49 BST" name="links_search_validation" description="Links and Search Validation" finished-at="2022-07-18T02:44:55 BST" duration-ms="126604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Links_JobSearch_Validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links_search_validation -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.automation.StepDefinition.DriverSuite@333291e3]" started-at="2022-07-18T02:44:55 BST" name="afterMethod" finished-at="2022-07-18T02:44:55 BST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.automation.StepDefinition.DriverSuite@333291e3]" started-at="2022-07-18T02:44:55 BST" name="afterTest" finished-at="2022-07-18T02:44:55 BST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.automation.StepDefinition.DriverSuite@333291e3]" started-at="2022-07-18T02:44:55 BST" name="afterSuite" finished-at="2022-07-18T02:44:56 BST" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.automation.StepDefinition.DriverSuite -->
+    </test> <!-- Links and Search Validation -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>

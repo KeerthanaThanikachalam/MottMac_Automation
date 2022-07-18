@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite">
+	<test name="Links and Search Validation">
+		<classes>
+			<class name="com.automation.StepDefinition.DriverSuite">
+				<methods>
+					<include name="links_search_validation">
+						<parameter name="Browser" value="CHROME" />
+						<parameter name="TestName"
+							value="Links_JobSearch_Validation" />
+					</include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
